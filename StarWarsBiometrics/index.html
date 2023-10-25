@@ -12,22 +12,19 @@
 
 <body>
 <header>
-    <h1>Star Wars Biometrics</h1>
+    <h1 class="text-center">Star Wars Biometrics</h1>
 </header>
 
-<div class="container">
-    <h2 class="display-6 text-center">Enter the name of a character in Star Wars.</h2>
-    <div class="">
-        <span class="">
-            <input type="text" id="input" autofocus>
-        </span>
-        <span class="">
-            <button id="button" class="btn btn-primary">Search</button><br>
-        </span>
-            
-    </div>
-    <textarea id="output" rows="10" class=""></textarea>
+<div class="d-flex justify-content-center">
+    <h2 class="display-6 text-center fw-semibold">Enter the name of a character in Star Wars.</h2>
 </div>
+    <div class="d-flex justify-content-center py-3">
+            <input type="text" id="input" autofocus class="w-25">
+            <button id="button" class="btn btn-primary">Search</button><br>
+    </div>
+    <div class="d-flex justify-content-center py-3">
+        <textarea id="output" rows="10"></textarea>
+    </div>
 
 <footer>
     <p class="text-center fw-bold fst-italic">&copy; Sammy Wong 2023</p>
