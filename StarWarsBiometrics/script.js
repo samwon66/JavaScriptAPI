@@ -14,7 +14,7 @@ function getApi () {
         })
         .then(data => {
             let properties = data.result[0].properties;
-            let propString = `${properties.name}\nGender: ${properties.gender}\nBirth year: ${properties.birth_year}\nHeight: ${properties.height}\nMass: ${properties.mass}`;
+            let propString = `Name: ${properties.name}\nGender: ${properties.gender}\nHeight: ${properties.height}\nMass: ${properties.mass}\nHair color: ${properties.hair_color}`;
 
             output.innerHTML = propString;
         })
