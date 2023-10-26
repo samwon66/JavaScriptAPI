@@ -12,8 +12,6 @@ function drawANewCard() {
         }) 
         .then(data => {
             let cardImg = data.cards[0].image;
-            // console.log(cardImg);
-            //console.log(data);
             let imgElem = document.createElement("img");
             output.innerHTML = '';
             imgElem.setAttribute("src", cardImg);
